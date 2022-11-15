@@ -47,35 +47,29 @@
     <nav id="navbarPlaceholder"></nav>
 
     <!-- the body of your page goes here -->
-    <div class="container-fluid bg-dark text-light p-5">
-        <div class="container bg-dark p-5">
-            <h1 class="display-4">Good morning, <span id="name-goes-here"></span></h1>
-            <hr>
-            <p>Quote of the day: <span id="quote-goes-here">...</span></p>
-        </div>
-    </div>
-
+    <!-- stuff -->
     <div class="container">
-        <h1>Some popular hikes</h1>
+        <h2>Reviews for <span id="HikeName"> this hike</span></h2>
+        <div id="details-go-here"></div>
         <!-- Here is container for cards  -->
         <div class="container">
-            <div id="hikeCardGroup" class="row row-cols-auto">
+            <div id="CardGroup" class="row row-cols-auto">
             </div>
         </div>
     </div>
 
-    <template id="hikeCardTemplate">
+    <template id="CardTemplate">
         <div class="card">
             <img class="card-img-top">
             <div class="card-body">
-                <h5 class="card-title">placeholder</h5>
-                <p class="card-length">placeholder</p>
-                <a href="review.html" id="write-review">Write a review</a>
+                <h5 class="title">placeholder</h5>
+                <p class="level">placeholder</p>
+                <p class="season">placeholder</p>
+                <p class="scrambled">placeholder</p>
+                <p class="flooded">placeholder</p>
                 <br>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                <p class="description">This card has supporting text below as a natural lead-in to additional content.
                 </p>
-                <a class="btn btn-primary read-more" style="float: right">Read more</a>
-                <i class="material-icons">bookmark_border</i>
             </div>
         </div>
     </template>
@@ -87,10 +81,9 @@
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
+    <script src="./scripts/eachHike.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/main.js"></script>
-
 
 </body>
 
