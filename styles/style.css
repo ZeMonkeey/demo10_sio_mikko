@@ -1,10 +1,57 @@
-
 /*-------------------------------------
  * customize material design icon sizes 
  *-------------------------------------
  */
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+/*
+* --------------------------------------------
+* These are some styles that I am customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
+.bg-info {
+    background-color: #7b8a18 !important;
+}
+
+.btn-primary {
+    color: #7b8a18;
+    font-size: 150%;
+    background-color: #0491e4;
+    border-color: #eb6424;
+    border-width: thick
+}
+
+.btn-outline-success {
+    background-color: #4cd4ac;
+    color: black;
+}
+
+.btn-info {
+    background-color: #54ECFC;
+}
+
+body {
+    background-color: #Bcbc8c;
+
+}
+
+.navbar-brand {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+}
